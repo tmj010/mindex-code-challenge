@@ -19,6 +19,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
     implementation 'de.bwaldvogel:mongo-java-server:1.44.0'
+    implementation 'org.mongodb:mongodb-driver-sync:4.11.2'
+    implementation 'org.apache.commons:commons-lang3:3.15.0'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'junit:junit:4.13.1'
